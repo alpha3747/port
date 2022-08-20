@@ -88,6 +88,7 @@
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
+        justify-content: center;
     }   
 
     .experience__container > div {

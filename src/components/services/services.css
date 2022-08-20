@@ -63,19 +63,16 @@
     .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
-    }
-
-    .service {
         height: auto;
     }
-    
+
 }
 
 
 
 /* ==================== MEDIA QUIRIES (SMALL DEVICES) ======================== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;

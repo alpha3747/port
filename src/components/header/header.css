@@ -2,7 +2,6 @@ header {
     height: 100vh;
     padding: 7rem;
     overflow: hidden;
-
 }
 
 .header__container {
@@ -18,7 +17,11 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    flex-wrap: wrap;
+}
 
+.cta a{
+    flex-shrink: 0;
 }
 
 
@@ -75,13 +78,13 @@ header {
 
 /* ==================== MEDIA QUIRIES (MEDIUM DEVICES) ======================== */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .container {
         height: 68vh;
     }
 
     
-}
+} */
 
 
 
